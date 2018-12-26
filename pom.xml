@@ -47,16 +47,10 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 			<plugin>
-				<groupId>org.jboss.as.plugins</groupId>
-				<artifactId>jboss-as-maven-plugin</artifactId>
-				<version>7.5.Final</version>
-				<configuration>
-					<hostname>${hostname}</hostname>
-					<port>9990</port>
-					<username>jboss</username>
-					<password>jboss12#</password>
-				</configuration>
-			</plugin>
+            <groupId>org.jboss.as.plugins</groupId>
+            <artifactId>jboss-as-maven-plugin</artifactId>
+            <version>7.2.Final</version>
+        </plugin>
 		</plugins>
 	</build>
 
