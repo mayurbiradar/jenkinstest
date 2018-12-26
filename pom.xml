@@ -52,7 +52,7 @@
                         <phase>install</phase>
             
                         <configuration>
-                        <configuration>
+                        </configuration>
                     </execution>
                 </executions>
 				<configuration>
