@@ -42,25 +42,24 @@
 
 	<build>
 		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
+			
 			<plugin>
                 <groupId>org.jboss.as.plugins</groupId>
                 <artifactId>jboss-as-maven-plugin</artifactId>
-                <version>7.9.Final</version>
+                <version>7.4.Final</version>
                 <executions>
                     <execution>
                         <phase>install</phase>
-                        <goals>
-                            <goal>deploy</goal>
-                        </goals>
+            
                         <configuration>
-                            <deployEnabled>false</deployEnabled>
                         <configuration>
                     </execution>
                 </executions>
+				<configuration>
+				<groupId>com.trihund</groupId>
+	<artifactId>TrihundService</artifactId>
+	<version>0.0.1</version>
+				</configuration>
             </plugin>
 		</plugins>
 	</build>
