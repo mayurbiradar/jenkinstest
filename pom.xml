@@ -51,10 +51,19 @@
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>exec-maven-plugin</artifactId>
 				<version>1.6.0</version>
+				
+				<executions>
+					<execution>
+						<phase>install</phase>
+
+						<configuration>
+							</configuration>
+					</execution>
+				</executions>
 				<configuration>
-					<jbossHome>C:\EAP-6.4.0</jbossHome>
-                <serverName>all</serverName>
-                <fileName>target/my-project.war</fileName>
+					<groupId>com.trihund</groupId>
+					<artifactId>TrihundService</artifactId>
+					<version>0.0.1</version>
 				</configuration>
 			</plugin>
 		</plugins>
